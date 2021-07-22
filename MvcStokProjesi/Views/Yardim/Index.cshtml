@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1">
+    Destek Al
+</button>
+<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">
+                    Destek Ekranı
+                </h2>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <label>
+                        Admin Bilgileri:
+                    </label>
+                    <br />
+                    <label>
+                        Telefon No: +90 500 000 00 00
+                    </label>
+                    <br />
+                    <label>
+                        Mail Adresi: haruncetin.ceng@gmail.com
+                    </label>
+                    <br />
+                    <button class="btn btn-info">Destek Talebi Al</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
