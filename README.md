@@ -1,2 +1,2 @@
 # MvcStokProjem
-Basit Ürün Satış Sitesi
+Simple Product Sales Site
